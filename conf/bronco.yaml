@@ -17,5 +17,12 @@ dict:
     custom:
       # Get from: https://www.wido.de/publikationen-produkte/arzneimittel-klassifikation/
       atc_path: temp/atc2017
+      drug_bank_path: ???
+      lang:
+        - de
+  atc_simple:
+    custom:
+      # Get from: https://www.wido.de/publikationen-produkte/arzneimittel-klassifikation/
+      atc_path: temp/atc2017
       lang:
         - de
