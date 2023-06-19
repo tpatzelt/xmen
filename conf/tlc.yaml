@@ -1,0 +1,23 @@
+name: tlc
+
+dict:
+  umls:
+    lang: ~
+    meta_path: /home/tim/MedicalLay/UMLS/2022AB/META
+    version: 2022AB
+    semantic_groups: ~
+    sabs:
+      - MSHGER
+      - MDRGER
+      - DMDICD10
+      - ICPCGER
+      - DMDUMD
+      - WHOGER
+      - LNC-DE-CH
+      - LNC-DE-DE
+      - LNC-DE-AT
+
+linker:
+  candidate_generation:
+    sapbert: ~
+    ngram: ~
